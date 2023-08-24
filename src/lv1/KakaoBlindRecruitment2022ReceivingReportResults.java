@@ -31,7 +31,6 @@ public class KakaoBlindRecruitment2022ReceivingReportResults {
             set.add(reporter);
         }
 
-
         // 총 결과 메일 갯수 카운팅
         for (int i = 0; i < id_list.length; i++) {
             if (countsList.containsKey(id_list[i]) && isMoreStandard(id_list[i], k)) {
